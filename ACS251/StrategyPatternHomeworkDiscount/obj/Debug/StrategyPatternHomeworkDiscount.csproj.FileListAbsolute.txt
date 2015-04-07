@@ -1,0 +1,4 @@
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomeworkDiscount\bin\Debug\StrategyPatternHomeworkDiscount.dll
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomeworkDiscount\bin\Debug\StrategyPatternHomeworkDiscount.pdb
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomeworkDiscount\obj\Debug\StrategyPatternHomeworkDiscount.dll
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomeworkDiscount\obj\Debug\StrategyPatternHomeworkDiscount.pdb

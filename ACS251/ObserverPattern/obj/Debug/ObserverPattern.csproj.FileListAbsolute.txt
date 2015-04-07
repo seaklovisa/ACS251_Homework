@@ -3,3 +3,7 @@ E:\Web\ACS251\ObserverPattern\bin\Debug\ObserverPattern.pdb
 E:\Web\ACS251\ObserverPattern\obj\Debug\ObserverPattern.exe
 E:\Web\ACS251\ObserverPattern\obj\Debug\ObserverPattern.pdb
 E:\Web\ACS251\ObserverPattern\obj\Debug\ObserverPattern.csprojResolveAssemblyReference.cache
+D:\GitHub\ACS251_Homework\ACS251\ObserverPattern\bin\Debug\ObserverPattern.exe
+D:\GitHub\ACS251_Homework\ACS251\ObserverPattern\bin\Debug\ObserverPattern.pdb
+D:\GitHub\ACS251_Homework\ACS251\ObserverPattern\obj\Debug\ObserverPattern.exe
+D:\GitHub\ACS251_Homework\ACS251\ObserverPattern\obj\Debug\ObserverPattern.pdb

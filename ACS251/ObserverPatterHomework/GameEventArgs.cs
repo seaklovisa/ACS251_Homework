@@ -5,14 +5,12 @@ using System.Text;
 
 namespace ObserverPatterHomework
 {
-    internal class GameData
+    internal class GameEventArgs : EventArgs
     {
         public int Damage { get; set; }
 
-        public GameData()
-        {
-            Random random = new Random();
-            Damage = random.Next(1000, 1500);
-        }
+        public string PlayerAttacted { get; set; }
+
+        public List<string> Partner { get; set; }
     }
 }

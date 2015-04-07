@@ -12,15 +12,16 @@ namespace ObserverPatterHomework
     public partial class Form1 : Form
     {
         private GameCenter gameCenter;
-        private Player james;
-        private Player bear;
-        private Player rabbit;
-        private Player bread;
 
         public Form1()
         {
             InitializeComponent();
             gameCenter = new GameCenter();
+        }
+
+        public void UpdateUI()
+        {
+            this.txtMessage.Text += gameCenter.DisplayMessage;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,15 +30,6 @@ namespace ObserverPatterHomework
             {
                 MessageBox.Show("請先點選人物加入遊戲");
                 return;
-            }
-
-            this.txtMessage.Text += gameCenter.Notify() + Environment.NewLine;
-
-            for (int i = 0; i < gameCenter.GetPlayers().Count; i++)
-            {
-                ((Player)gameCenter.GetPlayers()[i]).status.Text = "生命值:" + (((Player)gameCenter.GetPlayers()[i]).HP < 0 ? 0 : ((Player)gameCenter.GetPlayers()[i]).HP) + Environment.NewLine + "等級:" + ((Player)gameCenter.GetPlayers()[i]).Level;
-                if (((Player)gameCenter.GetPlayers()[i]).HP <= 0)
-                    gameCenter.ExitGame(gameCenter.GetPlayers()[i]);
             }
         }
 

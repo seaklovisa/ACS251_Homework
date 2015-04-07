@@ -11,6 +11,6 @@ namespace ObserverPatterHomework
 
         void ExitGame(IObserver player);
 
-        string Notify();
+        void Notify();
     }
 }

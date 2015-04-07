@@ -7,6 +7,6 @@ namespace ObserverPatterHomework
 {
     internal interface IObserver
     {
-        string Update(GameData gameData);
+        void MurderAttack(EventArgs e);
     }
 }

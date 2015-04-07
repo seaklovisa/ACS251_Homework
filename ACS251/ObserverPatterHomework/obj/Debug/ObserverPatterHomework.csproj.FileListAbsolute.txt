@@ -24,3 +24,9 @@ D:\GitHub\ACS251\ObserverPatterHomework\obj\Debug\ObserverPatterHomework.Propert
 D:\GitHub\ACS251\ObserverPatterHomework\obj\Debug\ObserverPatterHomework.csproj.GenerateResource.Cache
 D:\GitHub\ACS251_Homework\ACS251\ObserverPatterHomework\obj\Debug\ObserverPatterHomework.exe
 D:\GitHub\ACS251_Homework\ACS251\ObserverPatterHomework\obj\Debug\ObserverPatterHomework.pdb
+D:\GitHub\ACS251_Homework\ACS251\ObserverPatterHomework\bin\Debug\ObserverPatterHomework.exe
+D:\GitHub\ACS251_Homework\ACS251\ObserverPatterHomework\bin\Debug\ObserverPatterHomework.pdb
+D:\GitHub\ACS251_Homework\ACS251\ObserverPatterHomework\obj\Debug\ObserverPatterHomework.csprojResolveAssemblyReference.cache
+D:\GitHub\ACS251_Homework\ACS251\ObserverPatterHomework\obj\Debug\ObserverPatterHomework.Form1.resources
+D:\GitHub\ACS251_Homework\ACS251\ObserverPatterHomework\obj\Debug\ObserverPatterHomework.Properties.Resources.resources
+D:\GitHub\ACS251_Homework\ACS251\ObserverPatterHomework\obj\Debug\ObserverPatterHomework.csproj.GenerateResource.Cache

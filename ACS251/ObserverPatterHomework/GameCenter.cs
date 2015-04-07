@@ -5,54 +5,53 @@ using System.Text;
 
 namespace ObserverPatterHomework
 {
-    /// <summary>
-    /// 遊戲中心 模擬攻擊
-    /// </summary>
-    internal class GameCenter : IOberserable
+    internal class GameCenter
     {
-        private List<IObserver> players;
-        private GameData gameData;
+        private JamesPlayer james;
+        private BearPlayer bear;
+        private BreadPlayer bread;
+        private RabbitPlayer rabbit;
+        private Murder murder;
 
-        public int PlayersCount { get { return players.Count; } }
-
-        public List<IObserver> GetPlayers()
-        {
-            List<IObserver> tmp = players;
-            return tmp;
-        }
-
-        //人在踢掉 不在加入
-        public void IsExistsPlayer(IObserver player)
-        {
-            if (players.Contains(player))
-                ExitGame(player);
-            else
-                JoinGame(player);
-        }
+        public string DisplayMessage { get; set; }
 
         public GameCenter()
         {
-            players = new List<IObserver>();
-            gameData = new GameData();
+            james = new JamesPlayer { Name = "詹姆士", HP = 4200, Level = 11 };
+            bear = new BearPlayer { Name = "雄大", HP = 5000, Level = 10 };
+            bread = new BreadPlayer { Name = "饅頭人", HP = 4600, Level = 11 };
+            rabbit = new RabbitPlayer { Name = "兔兔", HP = 4300, Level = 10 };
+            murder = new Murder();
+
+            murder.JoinGame(james);
+            murder.JoinGame(bear);
+            murder.JoinGame(bread);
+            murder.JoinGame(rabbit);
         }
 
-        public void JoinGame(IObserver player)
+        public void IsExistsPlayer()
         {
-            players.Add(player);
         }
 
-        public void ExitGame(IObserver player)
+        public void StartMurder()
         {
-            players.Remove(player);
-        }
+            GameEventArgs gameEventArgs = new GameEventArgs();
+            gameEventArgs.Damage = new Random().Next(1000, 1500);
+            gameEventArgs.PlayerAttacted = ((Player)murder.players[new Random().Next(0, 4)]).Name;
 
-        public string Notify()
-        {
-            gameData.Damage = new Random().Next(1000, 1500);
-            //傳回訊息 表示廣播受到攻擊 ?(好像怪怪)
-            string msg = players[new Random().Next(0, players.Count)].Update(gameData);
+            List<string> partner = new List<string>();
+            foreach (var player in murder.players)
+            {
+                if (((Player)player).Name != gameEventArgs.PlayerAttacted)
+                    partner.Add(((Player)player).Name);
+            }
+            gameEventArgs.Partner = partner;
+            murder.OnMurderFire(gameEventArgs);
 
-            return msg;
+            foreach (var player in murder.players)
+            {
+                this.DisplayMessage += ((Player)player).DisplayMessage;
+            }
         }
     }
 }

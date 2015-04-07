@@ -53,10 +53,11 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="GameCenter.cs" />
-    <Compile Include="GameData.cs" />
+    <Compile Include="GameEventArgs.cs" />
     <Compile Include="IOberserable.cs" />
     <Compile Include="IObserver.cs" />
     <Compile Include="JamesPlayer.cs" />
+    <Compile Include="Murder.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

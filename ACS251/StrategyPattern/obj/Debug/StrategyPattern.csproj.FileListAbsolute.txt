@@ -3,3 +3,7 @@ E:\Web\ACS251\StrategyPattern\bin\Debug\StrategyPattern.pdb
 E:\Web\ACS251\StrategyPattern\obj\Debug\StrategyPattern.csprojResolveAssemblyReference.cache
 E:\Web\ACS251\StrategyPattern\obj\Debug\StrategyPattern.exe
 E:\Web\ACS251\StrategyPattern\obj\Debug\StrategyPattern.pdb
+D:\GitHub\ACS251_Homework\ACS251\StrategyPattern\bin\Debug\StrategyPattern.exe
+D:\GitHub\ACS251_Homework\ACS251\StrategyPattern\bin\Debug\StrategyPattern.pdb
+D:\GitHub\ACS251_Homework\ACS251\StrategyPattern\obj\Debug\StrategyPattern.exe
+D:\GitHub\ACS251_Homework\ACS251\StrategyPattern\obj\Debug\StrategyPattern.pdb

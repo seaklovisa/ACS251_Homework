@@ -1,0 +1,13 @@
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\bin\Debug\StrategyPatternHomework.exe
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\bin\Debug\StrategyPatternHomework.pdb
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\obj\Debug\MainWindow.baml
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\obj\Debug\MainWindow.g.cs
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\obj\Debug\App.g.cs
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\obj\Debug\StrategyPatternHomework_MarkupCompile.cache
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\obj\Debug\StrategyPatternHomework.g.resources
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\obj\Debug\StrategyPatternHomework.Properties.Resources.resources
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\obj\Debug\StrategyPatternHomework.csproj.GenerateResource.Cache
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\obj\Debug\StrategyPatternHomework.exe
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\obj\Debug\StrategyPatternHomework.pdb
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\bin\Debug\StrategyPatternHomework.exe.config
+D:\GitHub\ACS251_Homework\ACS251\StrategyPatternHomework\obj\Debug\StrategyPatternHomework.csprojResolveAssemblyReference.cache
