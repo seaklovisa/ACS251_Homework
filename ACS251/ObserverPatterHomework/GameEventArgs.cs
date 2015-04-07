@@ -9,7 +9,7 @@ namespace ObserverPatterHomework
     {
         public int Damage { get; set; }
 
-        public string PlayerAttacted { get; set; }
+        public IObserver PlayerAttacted { get; set; }
 
         public List<string> Partner { get; set; }
     }

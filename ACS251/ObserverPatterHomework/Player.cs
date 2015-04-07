@@ -15,6 +15,8 @@ namespace ObserverPatterHomework
 
         public string DisplayMessage { get; set; }
 
+        public string StatusMessage { get; set; }
+
         public abstract void MurderAttack(EventArgs e);
     }
 }

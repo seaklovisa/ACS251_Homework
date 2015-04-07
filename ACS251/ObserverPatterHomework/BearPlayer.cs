@@ -16,12 +16,14 @@ namespace ObserverPatterHomework
             {
                 GameEventArgs gameEventArgs = e as GameEventArgs;
 
-                if (gameEventArgs.PlayerAttacted.Equals(this.Name))
+                string partner = "";
+                foreach (var player in gameEventArgs.Partner)
                 {
-                    this.HP = (this.HP - gameEventArgs.Damage) <= 0 ? 0 : (this.HP - gameEventArgs.Damage);
-                    this.DisplayMessage += String.Format("我是{0},我被攻擊了，{1}、{2}、{3}快來救我，我的生命值只剩{4}\n"
-                        , this.Name, gameEventArgs.Partner[0], gameEventArgs.Partner[1], gameEventArgs.Partner[2], this.HP);
+                    partner += player + "，";
                 }
+
+                this.DisplayMessage = String.Format("我是{0},我被攻擊了，{1}快來救我，我的生命值只剩{2}\n"
+                , this.Name, partner, ((Player)(gameEventArgs.PlayerAttacted)).HP);
             }
         }
     }
