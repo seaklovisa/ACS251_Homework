@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternHomeworkDisc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternHomeworkBenefit", "StrategyPatternHomeworkBenefit\StrategyPatternHomeworkBenefit.csproj", "{5AADDFE4-648B-4AA7-A45C-A7CFA47BA683}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternHomeworkByEvent", "ObserverPatternHomeworkByEvent\ObserverPatternHomeworkByEvent.csproj", "{371CC25C-5DAA-42FF-AA77-2E07787F25B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{5AADDFE4-648B-4AA7-A45C-A7CFA47BA683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AADDFE4-648B-4AA7-A45C-A7CFA47BA683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AADDFE4-648B-4AA7-A45C-A7CFA47BA683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371CC25C-5DAA-42FF-AA77-2E07787F25B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371CC25C-5DAA-42FF-AA77-2E07787F25B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371CC25C-5DAA-42FF-AA77-2E07787F25B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371CC25C-5DAA-42FF-AA77-2E07787F25B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
